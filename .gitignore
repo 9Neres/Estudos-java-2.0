@@ -2,6 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea
+Estudos-Java-2.0.iml
 
 ### Eclipse ###
 .apt_generated
@@ -27,5 +29,3 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-.idea
-Estudos-Java-2.0.iml
