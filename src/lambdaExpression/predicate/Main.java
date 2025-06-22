@@ -10,6 +10,9 @@ public class Main {
         // sempre usa o , inves do + pode ocorrer bug
         List<String> palavras = Arrays.asList("Python","Kotlin","Java","Go","Ruby");
 
+        //Refere-se à interface Predicate<T>, usada para testes booleanos (retorna true ou false).
+        //Muito usada em filtros.
+
         Predicate<String> maisCincoCaracteres = palavra -> palavra.length() > 5;
 
         //Usar o Stream para filtrar as palavras com mais de 5 caracteres e, em seguida

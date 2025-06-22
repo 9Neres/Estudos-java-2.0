@@ -7,6 +7,10 @@ import java.util.stream.Stream;
 public class Main {
     public static void main (String [] args){
 
+
+        //Refere-se à interface Supplier<T>, que não recebe nenhum argumento e retorna um valor.
+        //Usada para geração de dados ou valores sob demanda.
+
         Supplier<String> comprimento = () -> "Olá";
 
         List<String> ListaSaudacao = Stream.generate(() -> "Olá")
