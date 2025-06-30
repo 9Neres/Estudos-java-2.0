@@ -15,5 +15,6 @@ public class Ex08 {
                   .reduce(0, Integer::sum);
 
           System.out.println( numSomado);
+
     }
 }

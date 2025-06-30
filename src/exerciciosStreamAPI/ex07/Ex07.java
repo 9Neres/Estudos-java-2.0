@@ -29,8 +29,8 @@ public class Ex07 {
         List<Integer> numeros = Arrays.asList(1,2,3,4);
 
         int segundoNum = numeros.stream()
-                .sorted(Comparator.reverseOrder()) // O sorted normalmente ele ordena de ordem crescente e e com o reverseOrder fica decresente
-                .skip(1).findFirst().get();
+                .sorted(Comparator.reverseOrder())
+                        .skip(1).findFirst().get();
 
         //.skip(1)
         //Pula o primeiro elemento do stream ordenado. Como o stream está em ordem decrescente, isso significa que está pulando o maior elemento.
